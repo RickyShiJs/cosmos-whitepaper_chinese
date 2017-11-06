@@ -404,8 +404,7 @@ up with the sender's block headers.  This mechanism is similar to that used by
 sidechains, which requires two interacting chains to be aware of one another via a
 bidirectional stream of proof-of-existence datagrams (transactions).
 
-The IBC protocol can naturally be defined using two types of transactions: an
-`IBCBlockCommitTx` transaction, which allows a blockchain to prove to any
+The IBC protocol can naturally be defined using two types of transactions: an  `IBCBlockCommitTx` transaction, which allows a blockchain to prove to any
 observer of its most recent block-hash, and an `IBCPacketTx` transaction, which
 allows a blockchain to prove to any observer that the given packet was indeed
 published by the sender's application, via a Merkle-proof to the recent
