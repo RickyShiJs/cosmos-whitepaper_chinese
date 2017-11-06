@@ -77,7 +77,7 @@ document.  Please check regularly for updates!_
   * [Acknowledgements](#acknowledgements)
   * [Citations](#citations)
 
-## Introduction ################################################################
+## Introduction | 介绍 ################################################################
 
 The combined success of the open-source ecosystem, decentralized
 file-sharing, and public cryptocurrencies has inspired an understanding that
@@ -193,8 +193,7 @@ seconds.  Notably, performance of well over a thousand transactions per second
 is maintained even in harsh adversarial conditions, with validators crashing or
 broadcasting maliciously crafted votes.  See the figure below for details.
 
-![Figure of Tendermint throughput performance]
-(https://raw.githubusercontent.com/gnuclear/atom-whitepaper/master/images/tendermint_throughput_blocksize.png)
+![Figure of Tendermint throughput performance](https://raw.githubusercontent.com/gnuclear/atom-whitepaper/master/images/tendermint_throughput_blocksize.png)
 
 ### Light Clients
 
